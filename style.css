@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+#social-links {
+  position: absolute;
+  display: flex;
+  padding: 24px;
+  font-size: 24px;
+  margin-top: 550px;
+}
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+#social-links a:hover {
+  background: #2a2122;
+  box-shadow:  inset 0 0 1em rgba(255, 217, 0, 0.692),
+  0 0 1em red;
+}
+a img {
+  width: 35px;
+  height: 35px;
+
+}
